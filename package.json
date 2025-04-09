@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cypress": "npx cypress open"
+    "cypress": "npx cypress open",
+    "test-ct": "playwright test -c playwright-ct.config.ts"
   },
   "dependencies": {
     "next": "15.2.4",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@playwright/experimental-ct-react": "^1.51.1",
     "@playwright/test": "^1.51.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
