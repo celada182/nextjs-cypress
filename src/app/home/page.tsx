@@ -2,6 +2,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import List from "../components/List";
 import HeaderImage from "../components/Logo";
+import { Selector } from "../components/Selector";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
             Second
           </Link>
         </div>
+        <Selector></Selector>
       </main>
       <Footer />
     </div>
